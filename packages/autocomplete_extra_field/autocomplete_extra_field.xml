@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" client='administrator' type="plugin" group="k2" method="upgrade">
+	<name>K2 - AutoComplete Extra Field Form</name>
+	<author>Uaigo! Tecnologia</author>
+	<authorEmail>contato@uaigo.com.br</authorEmail>
+	<authorUrl>Uagio! Tecnologia</authorUrl>
+	<creationDate>May 2014</creationDate>
+	<copyright>Copyright (C) 2014 All rights reserved to Uaigo! Tecnologia.</copyright>
+	<version>0.0.0</version>
+	<license>Gnu/GPL v3 or later</license>
+	<description>PLG_K2_AUTOCOMPLETE_EXTRA_FIELD_DESCRIPTION</description>
+	<files>
+		<filename plugin="autocomplete_extra_field">autocomplete_extra_field.php</filename>
+                <folder>language</folder>
+	</files>
+        <config>
+            <fields name="params">
+                <fieldset name="basic">                    
+                    <field name="id_field_auto_fill" type='text' label='PLG_K2_AUTOCOMPLETE_EXTRA_FIELD_ID_FIELD_AUTO_COMPLETE_LABEL'/>
+                </fieldset>
+            
+           </fields>
+        </config>
+        
+</extension>
